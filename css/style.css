@@ -1,0 +1,110 @@
+html, body {
+    background: no-repeat center/100% url("../images/bg-pattern-desktop.svg");
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: hsl(0, 36%, 70%);
+    font-size: 1rem;
+}
+
+.hero img {
+    width: 40vw;
+    height: 100vh;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 10px 0;
+    letter-spacing: 10px;
+    color: hsl(0, 6%, 24%);
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    padding: 15px;
+    width: 55%;
+    color: hsl(0, 6%, 24%);
+}
+
+input:focus {
+    outline: none;
+}
+
+.content {
+    width: 60vw;
+    height: 100vh;
+    float: left;
+    padding: 5% 7% ;
+    box-sizing: border-box;
+}
+
+.catch-phrase{
+    margin-top: 20%;
+}
+
+.desc {
+    font-weight: 400;
+    width: 90%;
+    margin: 5% 0;
+}
+
+.colored-heading {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+
+.subscription-form {
+    width: 400px;
+    border: solid 1px hsl(0, 36%, 70%);
+    border-radius: 35px;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-submit {
+    width: 80px;
+    height: 45px;
+    border: solid 1px hsl(0, 36%, 70%);
+    border-radius: 35px ;
+    padding: 10px 0;
+    border: none;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.error {
+    margin-left: 20px;
+    color: hsl(0, 74%, 74%);
+    font-size: 14px;
+    visibility: visible;
+}
+
+.error-img {
+    visibility: visible;
+}
+
+.error-img-hidden{
+    visibility: hidden;
+}
+
+.error-hidden {
+    margin-left: 20px;
+    color: hsl(0, 74%, 74%);
+    font-size: 14px;
+    visibility: hidden;
+}
+
+button:hover {
+    background: hsl(0, 80%, 86%);
+}
+
+::placeholder {
+    color: hsl(0, 80%, 86%);
+}
